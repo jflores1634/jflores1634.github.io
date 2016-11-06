@@ -1,0 +1,58 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+        background: url(grass.jpg);
+        background-size: 100px contain;
+    }
+    body {
+       height: 100%;
+    }
+
+    header {
+        font-size: 35;
+        width: 300px;
+        margin: 60px;
+        text-align: right;
+        color: white;
+    }
+    nav {
+        line-height:100px;
+        background-color: none;
+        width:125px;
+        display: inline-block;
+        vertical-align: text-top;
+        color: white;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    a {
+        color: white;
+    }
+    section {
+        width: 516px;
+        display: inline-block;
+        color: white;
+        padding: 10px;
+    }
+    aside {
+      width: 125px;
+      display: left;;
+      vertical-align: bottom;;
+      font-size:25px;
+    }
+    aside ul {
+        list-style-type: none;
+        color: white;
+    }
+    footer {
+        width: 790px;
+        background-color: transparent;;
+        text-align: center;
+        padding:5px;
+        display: block;
+        color: white;
+    }
